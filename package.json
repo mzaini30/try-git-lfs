@@ -8,7 +8,7 @@
   },
   "simple-git-hooks": {
     "pre-commit": "git secret hide",
-    "pre-receive": "git secret reveal"
+    "post-checkout": "git secret reveal"
   },
   "repository": {
     "type": "git",
