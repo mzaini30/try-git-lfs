@@ -6,6 +6,10 @@
   "scripts": {
     "release": "bumpp --tag --commit --push"
   },
+  "simple-git-hooks": {
+    "pre-commit": "git secret hide",
+    "pre-receive": "git secret reveal"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mzaini30/new.git"

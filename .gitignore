@@ -105,3 +105,4 @@ dist
 .gitsecret/keys/random_seed
 !*.secret
 kucing.txt
+hello.txt
