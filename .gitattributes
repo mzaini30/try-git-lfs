@@ -1,0 +1,2 @@
+secret.txt filter=lfs diff=lfs merge=lfs -text
+secret/ filter=lfs diff=lfs merge=lfs -text
