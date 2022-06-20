@@ -1,1 +1,1 @@
-secret.txt filter=git-crypt diff=git-crypt
+secret.txt filter=lfs diff=lfs merge=lfs -text
